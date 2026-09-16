@@ -14,7 +14,7 @@ This project performs an Exploratory Data Analysis (EDA) on Diwali sales data us
 ---
 
 ## 🛠️ Tech Stack & Libraries
-* **Language:** Python 3.x
+* **Language:** Python 3.14.5
 * **Data Manipulation:** `pandas`, `numpy`
 * **Data Visualization:** `matplotlib`, `seaborn`
 * **Environment:** Google Colab / VS Code
@@ -26,8 +26,19 @@ This project performs an Exploratory Data Analysis (EDA) on Diwali sales data us
 ├── data/
 │   └── Diwali Sales Data.csv       # Dataset
 ├── images/
-│   ├── gender_distribution.png     # Visualizations
-│   └── top_categories.png
-├── Diwali_Sales_Analysis.ipynb     # Main Analysis Notebook
+│   ├── amount vs age group.png     # Visualizations
+│   └──amount vs civil status.png
+|   └──amount vs gender.png
+|   └──amount vs occupation.png
+|   └──amount vs product category.png
+|   └──amount vs state.png
+│   └──count vs age group.png
+│   └──count vs civil status.png
+|   └──count vs gender.png
+|   └──count vs occupation.png
+|   └──count vs product category.png
+|   └──orders vs product ID.png
+|   └──orders vs State.png
+├── Diwali_Sales_Analysis.ipynb     # Main Analysis 
 ├── requirements.txt                # Python Dependencies
 └── README.md                       # Project Documentation
